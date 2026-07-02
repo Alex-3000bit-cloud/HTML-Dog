@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alex</title>
+</head>
+<body>
+    <h1>Alex</h1>
+    <p><strong>Hello</strong>, my dog is cute</p>
+    <p><em>He is very friendly</em></p>
+    <hr>
+    <h2>About My Dog</h2>
+    <ul type="square">
+        <li>Golden Retriever</li>
+        <li>Male</li>
+        <li>3 years old</li>
+    </ul>
+    <h2>My Dog's Favorite Activities</h2>
+    <ol type="I">
+        <li>Playing fetch</li>
+        <li>Going for walks</li>
+        <li>Swimming</li>
+    </ol>
+    <p><a href="https://vk.com/id504922" target="_blank">My VK Profile</a></p>
+    <hr>
+    <h2>My Dog's Photo</h2>
+    <a href="photo.html" target="_blank">View My Dog's Photo</a>
+
+    <h2>Contact Information</h2>
+    <table border="2">
+        <tr>
+            <th>Contact Method</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><a href="mailto:alex@example.com">alex@example.com</a></td>
+        </tr>
+    </table>
+    <hr>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" value="alex@example.com"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100"><br><br>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Связаться">
+    </form>
+</body>
+</html>
